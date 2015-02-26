@@ -40,9 +40,9 @@ module OmniAuth
       end
       
       extra do
-        prune!({
+        {
           'raw_info' => raw_info
-        })
+        }
       end
 
       def raw_info
